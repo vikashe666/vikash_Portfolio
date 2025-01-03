@@ -485,17 +485,22 @@ h6 {
   font-size: 14px;
   font-weight: 400;
 }
-#hero .aws-badge-container {
-  text-align: center; /* Center horizontally */
-  margin-top: 30px; /* Adds space below the "Senior Software Developer" text */
-  position: relative;
-  z-index: 2; /* Ensure it's above the background image but below the text */
+.badge-container {
+  display: flex;
+  justify-content: center; /* Center the badge horizontally */
+  margin-top: 20px; /* Add space between the badge and the text above */
 }
 
-#hero .aws-badge {
-  max-width: 120px; /* Controls the size of the badge */
-  display: inline-block; /* Ensures proper alignment */
+.aws-badge {
+  max-width: 150px; /* Adjust badge size */
+  height: auto;
+  position: relative;
+  transform: translateY(200px); /* Moves the badge 50px down */
 }
+
+
+
+
 
 
 
